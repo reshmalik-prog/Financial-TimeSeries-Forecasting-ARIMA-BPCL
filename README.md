@@ -11,7 +11,7 @@ This project performs Time series analysis and Forecasting of stock prices for B
 * **Source:** NSE Historical Data
 * **Type:** Time Series (Daily Closing Prices)
 * **Duration:** Last 1 Year
-* **File:** `dataset/BPCL_historical.csv`
+* **File:** `Dataset/BPCL_historical.csv`
 
 ---
 
@@ -28,7 +28,7 @@ The dataset was cleaned and prepared using the following steps:
 **Visualization:**
 The closing price trend was plotted to understand patterns and fluctuations.
 
-* Output: `results/price_trend.png`
+* Output: `Results/BPCL_Closing_Price_Trend.png`
 
 ---
 
@@ -50,8 +50,8 @@ To validate whether the time series is stationary:
 
 * Outputs:
 
-  * `results/acf_plot.png`
-  * `results/pacf_plot.png`
+  * `Results/acf_plot.png`
+  * `Results/pacf_plot.png`
 
 ---
 
@@ -73,7 +73,7 @@ The ARIMA model captures short-term dependencies effectively and provides reason
 
 Output:
 
-* `results/forecast.png`
+* `Results/forecast.png`
 
 **Observation:**
 The forecast shows moderate fluctuations with a relatively stable trend, indicating short-term predictability.
@@ -104,20 +104,21 @@ The forecast shows moderate fluctuations with a relatively stable trend, indicat
 ```
 Financial-TimeSeries-Forecasting-ARIMA-BPCL
 │
-├── dataset/
+├── Dataset/
 │   └── BPCL_historical.csv
 │
-├── code/
-│   └── arima_bpcl.py
-│
-├── results/
-│   ├── price_trend.png
+├── Results/
+│   ├── BPCL_Closing_Price_Trend.png
 │   ├── acf_plot.png
-│   ├── pacf_plot.png
-│   └── forecast.png
+│   ├── forecast.png
+│   └── pacf_plot.png
 │
-├── README.md
-└── ethics_declaration.pdf
+├──Source Code/
+│   └── TimeSeries_ARIMA_BPCL.ipynb
+
+│
+├── AI_Ethics_Declaration_Page.pdf
+└── README.md
 ```
 
 ---
