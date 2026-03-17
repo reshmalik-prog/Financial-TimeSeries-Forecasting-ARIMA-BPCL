@@ -28,7 +28,7 @@ The dataset was cleaned and prepared using the following steps:
 **Visualization:**
 The closing price trend was plotted to understand patterns and fluctuations.
 
-* Output: `Results/BPCL_Closing_Price_Trend.png`
+* Output: `Results/closing_price_trend_bpcl.png`
 
 ---
 
@@ -108,8 +108,8 @@ Financial-TimeSeries-Forecasting-ARIMA-BPCL
 │   └── BPCL_historical.csv
 │
 ├── Results/
-│   ├── BPCL_Closing_Price_Trend.png
 │   ├── acf_plot.png
+│   ├── closing_price_trend_bpcl.png
 │   ├── forecast.png
 │   └── pacf_plot.png
 │
